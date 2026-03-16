@@ -1,0 +1,15 @@
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.countries-visited {
+    background-color: aqua;
+}
+
+.visited-flag-container{
+    width: 120px;
+    display: flex;
+    height: 80px;
+    gap: 4px;
+}
